@@ -26,7 +26,7 @@ On VS Code terminal:
 ```python -m uvicorn app.main:app --reload```
 
 ### High-level Architecture
-
+```
 Frontend (App / Web / Chat UI)
         |
         v
@@ -42,4 +42,4 @@ AI Orchestrator (Agent Logic)
         |     └── Notifications
         |
         └── LLM (Reasoning + Conversation)
-
+```
