@@ -24,3 +24,22 @@ Step 5: Install Dependencies
 Step 6: Run Application
 On VS Code terminal:
 ```python -m uvicorn app.main:app --reload```
+
+### High-level Architecture
+
+Frontend (App / Web / Chat UI)
+        |
+        v
+AI Orchestrator (Agent Logic)
+        |
+        ├── RAG (Knowledge Brain)
+        |     └── Habit science, tips, frameworks
+        |
+        ├── MCP Tools (Action Layer)
+        |     ├── User memory
+        |     ├── Habit tracker
+        |     ├── Gamification engine
+        |     └── Notifications
+        |
+        └── LLM (Reasoning + Conversation)
+
