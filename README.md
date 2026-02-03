@@ -3,7 +3,7 @@
 requirements.txt with all the required packages.
 
 Step 1: Clone the github repository
-```git clone repository-url```
+```git clone https://github.com/Chaithra-J/OSO.Earth```
 
 Step 2: Navigate to the Project Directory 
 ```cd OSO.Earth```
